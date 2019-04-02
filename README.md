@@ -1,6 +1,4 @@
 # vue-marvel
-
-# vue-marvel
 Vue SPA using Marvel Comics API
 
 ## Project setup
