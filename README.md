@@ -9,8 +9,10 @@ npm install
 
 Go to https://developer.marvel.com/account and sign up for a Marvel API key. On this page you will also need to white list your development URL in the "Your authorized referrers" section. When developing locally you will want to enter "localhost".
 
+Enter your Marvel API Public key in the \src\services\core.js file:
 ```
-Enter your Marvel API Public key in the \src\services\core.js file
+const MarvelKey = "----enter your API key here -----";
+const MarvelGatewayUrl = "http://gateway.marvel.com:80/v1/public/";
 ```
 
 ### Compiles and hot-reloads for development
