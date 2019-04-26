@@ -11,7 +11,7 @@ Go to https://developer.marvel.com/account and sign up for a Marvel API key. On 
 
 Enter your Marvel API Public key in the \src\services\core.js file:
 ```
-const MarvelKey = "----enter your API key here -----";
+const MarvelKey = "----enter your Marvel Public API key here -----";
 const MarvelGatewayUrl = "http://gateway.marvel.com:80/v1/public/";
 ```
 
