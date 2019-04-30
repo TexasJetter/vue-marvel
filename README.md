@@ -2,6 +2,7 @@
 Vue SPA using Marvel Comics API
 
 ## Project setup
+After cloning or downloading this repository it is necessary to restore the NPM modules. To do so run the npm install command from the root of the repository.
 ```
 npm install
 ```
@@ -16,6 +17,7 @@ const MarvelGatewayUrl = "http://gateway.marvel.com:80/v1/public/";
 ```
 
 ### Compiles and hot-reloads for development
+To run the project locally launch the local server using the "serve" script. Typically this will run a local web server on http://localhost:8080, but your port number may vary. See the Vue CLI (https://cli.vuejs.org/) for more information.
 ```
 npm run serve
 ```
